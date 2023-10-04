@@ -1,0 +1,22 @@
+{
+	"name": "makoto-ui-vue",
+	"description": "UI library for http://github.com/dehwyy/Makoto",
+	"homepage": "https://github.com/dehwyy/makoto-ui",
+	"author": "dehwyy <https://github.com/dehwyy>",
+	"version": "0.0.1",
+	"license": "MIT",
+	"exports": {
+		".": {
+			"types": "./src/vue/index.d.ts",
+			"import": "./src/vue/index.js"
+		}
+	},
+	"main": "src/vue/index.js",
+	"files": [
+		"src/vue/*.js",
+		"src/vue/*.d.ts"
+	],
+	"types": "src/vue/index.d.ts",
+	"type": "module",
+	"module": "src/vue/index.js"
+}
