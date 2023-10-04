@@ -1,0 +1,48 @@
+:root {
+  --input-eye__size: 7px;
+}
+
+.input-eye__center-absolute {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+}
+
+.input-eye__wrapper {
+  position: relative;
+}
+
+.input-eye__eye {
+  width: 40px;
+  height: 40px;
+}
+
+.input-eye__open {
+  width: var(--input-eye__size);
+  height: var(--input-eye__size);
+  border-radius: 9999px;
+  background-color: black;
+  border: 2.75px solid white;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.input-eye__closed-dot {
+  width: calc(var(--input-eye__size) + 3px);
+  height: calc(var(--input-eye__size) + 3px);
+  border: 2px solid black;
+  border-radius: 9999px;
+  background-color: white;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.input-eye__closed-line {
+  width: 3px;
+  height: 40px;
+  background-color: white;
+  transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+}
+
+.input-eye__fallback {
+  width: 50px;
+  height: 50px;
+}

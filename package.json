@@ -7,8 +7,10 @@
 	"license": "MIT",
 	"scripts": {
 		"svelte-gen": "svelte-kit sync && svelte-package -o package-svelte/src",
-		"package-svelte": "npm run svelte-gen && npm run css",
-		"css": "sass --no-source-map src/css/:package-svelte/css  && minifyall --dir package-svelte/css/",
+		"package-svelte": "npm run svelte-gen && npm run package-svelte-css",
+		"package-svelte-css": "sass --no-source-map src/css/:package-svelte/css  && minifyall --dir package-svelte/css/",
+		"css": "sass --no-source-map src/scss/:src/css && minifyall --dir src/css",
+		"css:watch": "sass --no-source-map src/scss/:src/css --watch",
 		"storybook": "storybook dev -p 6006",
 		"build-storybook": "storybook build"
 	},

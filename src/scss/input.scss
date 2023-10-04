@@ -60,3 +60,10 @@
 .input__input:invalid {
   box-shadow: none;
 }
+
+.input__eye-icon {
+  position: absolute;
+  top: 0.75rem;
+  right: 0;
+  cursor: pointer;
+}

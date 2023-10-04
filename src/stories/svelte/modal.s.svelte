@@ -9,7 +9,7 @@
 
 <Modal {isOpen} base_width={width}>
 	<div class="input_wrapper">
-		<Input placeholder="input placeholder" />
+		<Input placeholder="input placeholder" ableToChangeVisibility={true} />
 		<Button>Button text</Button>
 	</div>
 </Modal>

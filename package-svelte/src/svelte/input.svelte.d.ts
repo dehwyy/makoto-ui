@@ -7,6 +7,8 @@ declare const __propDef: {
         autocomplete?: boolean | undefined;
         spellcheck?: boolean | undefined;
         value?: string | undefined;
+        ableToChangeVisibility?: boolean | undefined;
+        isPasswordType?: boolean | undefined;
     };
     events: {
         [evt: string]: CustomEvent<any>;
