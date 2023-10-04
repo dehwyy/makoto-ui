@@ -1,5 +1,5 @@
 <script lang="ts">
-	import '../css/button.css'
+	import '../../css/button.css'
 
 	export let onClick = () => {}
 </script>

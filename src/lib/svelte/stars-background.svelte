@@ -1,5 +1,5 @@
 <script lang="ts">
-	import '../css/stars-background.css'
+	import '../../css/stars-background.css'
 </script>
 
 <div class="stars__wrapper">

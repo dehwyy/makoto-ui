@@ -1,7 +1,7 @@
 <script lang="ts">
-	import Button from './../lib/button.svelte'
-	import Modal from './../lib/modal.svelte'
-	import Input from './../lib/input.svelte'
+	import Button from '$lib/svelte/button.svelte'
+	import Modal from '$lib/svelte/modal.svelte'
+	import Input from '$lib/svelte/input.svelte'
 
 	export let isOpen = true
 	export let width = 600

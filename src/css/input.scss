@@ -9,7 +9,7 @@
   user-select: none;
   position: relative;
   color: white;
-  font: inherit;
+  font-family: inherit;
 }
 
 .input__input {
@@ -40,6 +40,7 @@
   transition: 0.2s;
   color: var(--input-gray);
   user-select: none;
+  font-weight: inherit;
 }
 
 .input__input:focus {

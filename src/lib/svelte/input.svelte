@@ -1,5 +1,5 @@
 <script lang="ts">
-	import '../css/input.css'
+	import '../../css/input.css'
 	export let placeholder = ''
 	export let autofocus = false
 	export let autocomplete = false
@@ -24,6 +24,6 @@
 		{placeholder}
 	/>
 	<label for={placeholder} class="input__label">
-		{placeholder}
+		<slot />
 	</label>
 </div>

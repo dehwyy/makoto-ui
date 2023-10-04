@@ -1,6 +1,6 @@
 <script lang="ts">
 	import RainbowBlock from './rainbow-block.svelte'
-	import '../css/modal.css'
+	import '../../css/modal.css'
 
 	export let isOpen: boolean
 	export let close = () => {}

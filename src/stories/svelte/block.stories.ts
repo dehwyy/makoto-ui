@@ -1,11 +1,10 @@
-import type Block from './block.s.svelte'
 import BlockWithContent from './block.s.svelte'
 import type { Meta, StoryObj } from '@storybook/svelte'
 
 const meta = {
 	component: BlockWithContent,
 	title: 'Block'
-} satisfies Meta<Block>
+} satisfies Meta<BlockWithContent>
 
 export default meta
 type Story = StoryObj<typeof meta>

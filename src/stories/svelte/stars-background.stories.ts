@@ -1,4 +1,4 @@
-import StarsBackground from '../lib/stars-background.svelte'
+import StarsBackground from '$lib/svelte/stars-background.svelte'
 import type { Meta, StoryObj } from '@storybook/svelte'
 
 const meta = {

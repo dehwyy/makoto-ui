@@ -1,16 +1,30 @@
 ## Makoto UI
-___________
+
+---
 
 ### Makoto UI Kit
+
 - Svelte
 - Nuxt (soon)
 - Next (potential)
 - Astro?
-___________
+
+---
 
 ### StoryBook: All components are viewable
-__________
+
+---
+
+### Command to generate
+
+- Svelte:
+
+```zsh
+  npm run package-svelte # would generate /package/svelte
+```
+
+---
 
 ### TODO
-- Minify css before its usage
-- Refactor dir structure for many frameworks
+
+- Make component for other frameworks

@@ -1,4 +1,4 @@
-import InputSvelte from '../lib/input.svelte'
+import InputSvelte from '$lib/svelte/input.svelte'
 import type { Meta, StoryObj } from '@storybook/svelte'
 import { userEvent, within } from '@storybook/testing-library'
 

@@ -1,5 +1,4 @@
-<script lang="ts">
-	import '../css/rainbow-block.css'
+<script>import "../../css/rainbow-block.css";
 </script>
 
 <!-- svelte-ignore a11y-no-static-element-interactions -->

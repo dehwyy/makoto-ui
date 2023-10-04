@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Button from '../lib/button.svelte'
-	import RainbowBlock from '../lib/rainbow-block.svelte'
+	import Button from '$lib/svelte/button.svelte'
+	import RainbowBlock from '$lib/svelte/rainbow-block.svelte'
 
 	export let width = 300
 </script>
