@@ -3,7 +3,7 @@
 	"description": "UI library for http://github.com/dehwyy/Makoto",
 	"homepage": "https://github.com/dehwyy/makoto-ui",
 	"author": "dehwyy <https://github.com/dehwyy>",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"license": "MIT",
 	"exports": {
 		".": {
@@ -11,10 +11,14 @@
 			"import": "./src/vue/index.js"
 		}
 	},
+	"scripts": {
+		"minify": "minify-all-js ./src/vue"
+	},
 	"main": "src/vue/index.js",
 	"files": [
 		"src/vue/*.js",
-		"src/vue/*.d.ts"
+		"src/vue/*.d.ts",
+		"css/*.css"
 	],
 	"types": "src/vue/index.d.ts",
 	"type": "module",

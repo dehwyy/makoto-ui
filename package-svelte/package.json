@@ -3,7 +3,7 @@
 	"description": "UI library for http://github.com/dehwyy/Makoto",
 	"homepage": "https://github.com/dehwyy/makoto-ui",
 	"author": "dehwyy <https://github.com/dehwyy>",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"license": "MIT",
 	"exports": {
 		".": {
@@ -14,7 +14,9 @@
 	"main": "src/svelte/index.js",
 	"files": [
 		"src/svelte/*.svelte",
-		"src/svelte/*.d.ts"
+		"src/svelte/*.d.ts",
+		"src/static/*.svg",
+		"css/*.css"
 	],
 	"types": "src/svelte/index.d.ts",
 	"type": "module",

@@ -4,24 +4,14 @@
 
 ### Makoto UI Kit
 
-- Svelte
-- Nuxt (soon)
+- [Svelte](https://www.npmjs.com/package/makoto-ui-svelte)
+- [Nuxt](https://www.npmjs.com/package/makoto-ui-vue)
 - Next (potential)
 - Astro?
 
 ---
 
-### StoryBook: All components are viewable
-
----
-
-### Command to generate
-
-- Svelte:
-
-```zsh
-  npm run package-svelte # would generate /package/svelte
-```
+### StoryBook: All components are viewable as Svelte components
 
 ---
 

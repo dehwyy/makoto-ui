@@ -5,12 +5,12 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
 	plugins: [vue()],
 	build: {
-		outDir: 'package-vue',
+		outDir: 'package-vue/src/vue',
 		lib: {
 			entry: path.resolve(__dirname, 'src/lib/vue/index.ts'),
 			name: 'makoto-ui',
 			formats: ['es'],
-			fileName: (format) => `makoto-ui.${format}.js`
+			fileName: () => `index.js`
 		},
 		rollupOptions: {
 			external: ['vue'],
