@@ -1,0 +1,23 @@
+{
+	"name": "makoto-ui-react",
+	"description": "UI library for http://github.com/dehwyy/Makoto",
+	"homepage": "https://github.com/dehwyy/makoto-ui",
+	"author": "dehwyy <https://github.com/dehwyy>",
+	"version": "0.0.1",
+	"license": "MIT",
+	"exports": {
+		".": {
+			"types": "./src/react/index.d.ts",
+			"import": "./src/react/index.js"
+		}
+	},
+	"main": "src/react/index.js",
+	"files": [
+		"src/react/*.svelte",
+		"src/react/*.d.ts",
+		"css/*.css"
+	],
+	"types": "src/react/index.d.ts",
+	"type": "module",
+	"module": "src/react/index.js"
+}

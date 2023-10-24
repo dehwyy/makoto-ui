@@ -1,50 +1,58 @@
 {
-	"name": "makoto-ui",
-	"description": "UI library for http://github.com/dehwyy/Makoto",
-	"homepage": "https://github.com/dehwyy/makoto-ui",
-	"author": "dehwyy <https://github.com/dehwyy>",
-	"version": "0.0.1",
-	"license": "MIT",
-	"scripts": {
-		"vue": "npm run package-vue && npm run package-vue-css",
-		"package-vue": "vue-tsc -p tsconfig.vue.json && vite build -c vite.vue.config.ts",
-		"package-vue-css": "sass --no-source-map src/css/:package-vue/css && minifyall --dir package-vue/css",
-		"svelte": "npm run package-svelte && npm run package-svelte-css",
-		"package-svelte": "svelte-kit sync && svelte-package -i src/lib/svelte -o package-svelte/src/svelte",
-		"package-svelte-css": "sass --no-source-map src/css/:package-svelte/css  && minifyall --dir package-svelte/css/",
-		"css": "sass --no-source-map src/scss/:src/css && minifyall --dir src/css",
-		"css:watch": "sass --no-source-map src/scss/:src/css --watch",
-		"storybook": "storybook dev -p 6006",
-		"build-storybook": "storybook build"
-	},
-	"peerDependencies": {
-		"svelte": "^4.0.0"
-	},
-	"devDependencies": {
-		"@storybook/addon-essentials": "^7.4.5",
-		"@storybook/addon-interactions": "^7.4.5",
-		"@storybook/addon-links": "^7.4.5",
-		"@storybook/blocks": "^7.4.5",
-		"@storybook/svelte": "^7.4.5",
-		"@storybook/sveltekit": "^7.4.5",
-		"@storybook/testing-library": "^0.2.2",
-		"@sveltejs/adapter-auto": "^2.0.0",
-		"@sveltejs/kit": "^1.20.4",
-		"@sveltejs/package": "^2.0.0",
-		"@vitejs/plugin-vue": "^4.4.0",
-		"prettier": "^2.8.0",
-		"prettier-plugin-svelte": "^2.10.1",
-		"storybook": "^7.4.5",
-		"svelte": "^4.0.5",
-		"svelte-check": "^3.4.3",
-		"tslib": "^2.4.1",
-		"typescript": "^5.0.0",
-		"vite": "^4.4.2",
-		"vitest": "^0.34.0",
-		"vue-tsc": "^1.8.15"
-	},
-	"type": "module",
-	"dependencies": {
-		"vue": "^3.3.4"
-	}
+  "name": "makoto-ui",
+  "description": "UI library for http://github.com/dehwyy/Makoto",
+  "homepage": "https://github.com/dehwyy/makoto-ui",
+  "author": "dehwyy <https://github.com/dehwyy>",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "vue": "npm run package-vue && npm run package-vue-css",
+    "package-vue": "vue-tsc -p tsconfig.vue.json && vite build -c vite.vue.config.ts",
+    "package-vue-css": "sass --no-source-map src/css/:package-vue/css && minifyall --dir package-vue/css",
+    "svelte": "npm run package-svelte && npm run package-svelte-css",
+    "package-svelte": "svelte-kit sync && svelte-package -i src/lib/svelte -o package-svelte/src/svelte",
+    "package-svelte-css": "sass --no-source-map src/css/:package-svelte/css  && minifyall --dir package-svelte/css/",
+    "react": "bun run package-react && bun run package-react-css",
+    "package-react": "tsc -p tsconfig.react.json",
+    "package-react-css": "sass --no-source-map src/css/:package-react/css  && minifyall --dir package-react/css/",
+    "css": "sass --no-source-map src/scss/:src/css && minifyall --dir src/css",
+    "css:watch": "sass --no-source-map src/scss/:src/css --watch",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "peerDependencies": {
+    "svelte": "^4.0.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.4.5",
+    "@storybook/addon-interactions": "^7.4.5",
+    "@storybook/addon-links": "^7.4.5",
+    "@storybook/blocks": "^7.4.5",
+    "@storybook/svelte": "^7.4.5",
+    "@storybook/sveltekit": "^7.4.5",
+    "@storybook/testing-library": "^0.2.2",
+    "@sveltejs/adapter-auto": "^2.0.0",
+    "@sveltejs/kit": "^1.20.4",
+    "@sveltejs/package": "^2.0.0",
+    "@vitejs/plugin-vue": "^4.4.0",
+    "prettier": "^2.8.0",
+    "prettier-plugin-svelte": "^2.10.1",
+    "storybook": "^7.4.5",
+    "svelte": "^4.0.5",
+    "svelte-check": "^3.4.3",
+    "tslib": "^2.4.1",
+    "typescript": "^5.0.0",
+    "vite": "^4.4.2",
+    "vitest": "^0.34.0",
+    "vue-tsc": "^1.8.15"
+  },
+  "type": "module",
+  "dependencies": {
+    "@types/node": "^20.8.8",
+    "@types/react": "^18.2.31",
+    "@types/react-dom": "^18.2.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vue": "^3.3.4"
+  }
 }

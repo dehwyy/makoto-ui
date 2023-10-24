@@ -1,0 +1,4 @@
+package-svelte/* linguist-vendored
+package-vue/* linguist-vendored
+package-react/* linguist-vendored
+src/css/* linguist-vendored
